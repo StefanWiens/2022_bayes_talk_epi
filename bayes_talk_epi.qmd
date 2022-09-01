@@ -1,0 +1,229 @@
+---
+title: "Bayes benefits your research"
+date: "`r Sys.Date()`"
+author: "Stefan Wiens"
+format:
+  revealjs: 
+    incremental: true
+    theme: solarized
+    preview-links: true
+    chalkboard: true
+editor: visual
+bibliography: references.bib
+---
+
+## abstract {visibility="hidden"}
+
+Bayes benefits your research
+
+::: {style="font-size: 0.7em"}
+As researchers, we need to learn new methods that improve our research. However, this can be difficult to achieve because new methods may be difficult to understand, difficult to use, or their use may not be rewarding or required for publication. Although the Bayesian approach has been around for quite some time, it may not be as common for the above reasons. I will try to give simple explanations of the Bayesian approach to hypothesis testing (Bayes factor) and to estimation (credible interval). I will also show that with new tools, Bayesian analyses are relatively simple, and that their use is rewarding to one's research.
+
+[Stefan Wiens](https://www.su.se/profiles/swiens-1.184142)
+:::
+
+## background
+
+![](images/Assar%20matematik.jpg){fig-align="center"}
+
+## maven
+
+![](images/Dienes.jpg){.absolute top="80" right="0" width="100"}
+
+![](images/EJ%20Wagenmakers.jpg){.absolute top="350" right="0" width="100"}
+
+-   "A Maven is a trusted expert in a field who passes on knowledge to others." [@sharpe2013]
+-   [Zoltan Dienes](http://www.lifesci.sussex.ac.uk/home/Zoltan_Dienes/)
+    -   @dienes2008, @dienes2016, @dienes2018
+-   [Eric-Jan Wagenmakers](https://www.uva.nl/en/profile/w/a/e.m.wagenmakers/e.m.wagenmakers.html?cb)
+    -   @wagenmakers2016a, @wagenmakers2018, @wagenmakers2018a, @wagenmakers2020
+-   own attempt [@wiensPerformingContrastAnalysis2017]
+
+## common approaches
+
+::: columns
+::: {.column width="50%"}
+Frequentist
+
+-   significance test (*p* \< .05)
+-   confidence interval
+:::
+
+::: {.column width="50%"}
+Bayesian
+
+-   Bayes factor (*BF* \> 3)
+-   credible interval
+:::
+:::
+
+. . .
+
+which do you use in your research?
+
+## goal
+
+::: columns
+::: {.column width="50%"}
+hypothesis testing
+
+-   significance test (*p* \< .05)
+-   Bayes factor (*BF* \> 3)
+:::
+
+::: {.column width="50%"}
+estimation
+
+-   confidence interval
+-   credible interval
+:::
+:::
+
+## example
+
+tiredness symptoms after listening to my talk
+
+. . .
+
+![](images/chill_pill.png){.absolute bottom="0" right="0" width="400"}
+
+. . .
+
+-   hypothesis testing approach
+    -   Tiredness was significantly lower in the treatment than control group (*p* \< .05).
+-   estimation approach
+    -   Tiredness was lower for treatment than control; mean difference was -2.3, 95%CI \[-4.5, -0.1\].
+
+## hypothesis testing
+
+-   hypothesis testing: does effect exist?
+-   estimation: how big is effect?
+-   demonstrate existence first [@wagenmakers2018]
+    -   tooth fairy science ![](images/tooth_fairy.png){.absolute top="100" right="0" width="300"}
+    -   example: *ESP* [@wagenmakers2011]
+-   advice:
+    -   Bayesian analyses can be very time consuming
+    -   If an effect may exist, go with estimation!
+
+## frequentist hypothesis testing
+
+-   NHST (null hypothesis significance testing)
+    -   H0: no effect (nill effect)
+    -   H1: there is an effect
+-   If we assume that there is no effect, how likely are the data (or more extreme data)
+-   Data are very unlikely (*p* \< .05)
+-   We reject the idea that there is no effect (reject H0)
+-   We conclude that there *is* an effect (accept H1)
+
+## [Sally Clark](https://en.wikipedia.org/wiki/Sally_Clark)
+
+![](images/sallyclark.jpg){.absolute top="0" right="0" width="200"}
+
+-   Her two children died briefly after birth
+    -   defense: SIDS
+    -   prosecution: murder
+        -   "1 in 73 million" that 2 children would die of SIDS
+-   NHST interpretation
+    -   H0 = SIDS
+    -   Data are too unlikely: *p* \< 0.05
+    -   no SIDS (reject H0)
+    -   conclude murder (accept H1)
+
+## Royal statistical society
+
+"The jury needs to weigh up two competing explanations. Two deaths by murder may well be even more unlikely" (Green, 2002)
+
+-   own calculation for Sweden (some years old)
+    -   SIDS: 1 in 6000
+    -   child murder: 0.036 in 6000
+-   Bayesian: which explanation is better?
+-   Frequentist: SIDS is no good (look only at H0)
+
+## NHST = hypothesis myopia
+
+![](images/hypothesis%20myopia%2012559689854_c41bbf6d62_o.png){fig-align="center"}
+
+[@wagenmakers2018]
+
+## Bayesian hypothesis testing
+
+model comparison
+
+example: H0 versus H1
+
+![](images/scale-clipart_300-147.png){.absolute width="600" left="150"}
+
+## Bayesian whodunnit
+
+![](images/sherlock%20minion.jpg){fig-align="center"}
+
+## Whodunnit example
+
+::: {layout="[[1], [40, -20, 40]]"}
+![data (victim)](images/minion%20transformation.jpg){width="150"}
+
+![H0](images/tumblr_static_minion-1.png){width="150"}
+
+![H1 (pet theory)](images/minion_cleaner.png){width="150"}
+:::
+
+## Bayes Factor
+
+![](images/Bayes_formula.png){fig-align="center"}
+
+-   BF10: How much better explanation is H1 than H0?
+-   BF01: How much better explanation is H0 than H1?
+-   BF10 = 1: H0 and H1 explain equally well
+-   BF10 \< 1: H0 explains better
+-   BF10 \> 1: H1 explains better
+-   BF is continuous measure of evidence
+
+## model comparison
+
+Results depend on the question
+
+::: {layout-ncol="3"}
+![H1](images/tumblr_static_minion-1.png){width="150"}
+
+![H1 (pet theory)](images/minion_cleaner.png){width="150"}
+
+![yet another H1](images/purple%20minion.jpg){width="150"}
+:::
+
+. . .
+
+::: {style="font-size: 0.7em"}
+"It is sometimes considered a paradox that the answer depends not only on the observations but also on the question; it should be a platitude." (Jeffreys, 1939)
+:::
+
+## model vagueness
+
+![](images/Garfield_weather.jpg)
+
+. . .
+
+Bayesian analyses punish vagueness [@wagenmakers2020]
+
+## standardization of effect sizes
+
+"Being so disinterested in our variables that we do not care about their units can hardly be desirable." (Tukey, 1969)
+
+-   raw effect sizes
+    -   [Zoltan Dienes](http://www.lifesci.sussex.ac.uk/home/Zoltan_Dienes/)
+    -   @wiensAladinsBayesFactor2017
+-   standardized effect sizes
+    -   [JASP](https://jasp-stats.org/) works with standardized effect sizes
+    -   JASP example: Adam Sandler
+
+## where next?
+
+-   open science [@spellman2018]
+-   literate programming [@knuth1984]
+-   easily done in [R](https://www.r-project.org/) with [Quarto](https://quarto.org/)
+    -   or Python
+-   many packages in R
+    -   [Bayestest](makowskiIndicesEffectExistence2019)
+-   LMM easier to fit with Bayesian approach
+    -   but time consuming!
+
+## references

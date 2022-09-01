@@ -1,0 +1,7 @@
+project:
+  title: "bayes_talk_epi"
+  type: website
+  output-dir: docs
+
+editor: visual
+
