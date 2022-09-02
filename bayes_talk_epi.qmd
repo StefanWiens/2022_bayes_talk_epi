@@ -213,16 +213,17 @@ Bayesian analyses punish vagueness [@wagenmakers2020]
     -   @wiensAladinsBayesFactor2017
 -   standardized effect sizes
     -   [JASP](https://jasp-stats.org/) works with standardized effect sizes
-    -   JASP example: Adam Sandler
+    -   JASP example: Adam Sandler [@wagenmakers2016a]
 
-## where next?
+## next stop Bayes
 
 -   open science [@spellman2018]
 -   literate programming [@knuth1984]
 -   easily done in [R](https://www.r-project.org/) with [Quarto](https://quarto.org/)
     -   or Python
 -   many packages in R
-    -   [Bayestest](makowskiIndicesEffectExistence2019)
+    - [brms](burknerBrmsPackageBayesian2017a)
+    -   [bayestestR](makowskiIndicesEffectExistence2019)
 -   LMM easier to fit with Bayesian approach
     -   but time consuming!
 

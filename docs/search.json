@@ -116,14 +116,14 @@
     "href": "bayes_talk_epi.html#standardization-of-effect-sizes",
     "title": "Bayes benefits your research",
     "section": "standardization of effect sizes",
-    "text": "standardization of effect sizes\n“Being so disinterested in our variables that we do not care about their units can hardly be desirable.” (Tukey, 1969)\n\nraw effect sizes\n\nZoltan Dienes\nWiens (2017)\n\nstandardized effect sizes\n\nJASP works with standardized effect sizes\nJASP example: Adam Sandler"
+    "text": "standardization of effect sizes\n“Being so disinterested in our variables that we do not care about their units can hardly be desirable.” (Tukey, 1969)\n\nraw effect sizes\n\nZoltan Dienes\nWiens (2017)\n\nstandardized effect sizes\n\nJASP works with standardized effect sizes\nJASP example: Adam Sandler (Wagenmakers, Morey, and Lee 2016)"
   },
   {
     "objectID": "bayes_talk_epi.html#where-next",
     "href": "bayes_talk_epi.html#where-next",
     "title": "Bayes benefits your research",
     "section": "where next?",
-    "text": "where next?\n\nopen science (Spellman, Gilbert, and Corker 2018)\nliterate programming (Knuth 1984)\neasily done in R with Quarto\n\nor Python\n\nmany packages in R\n\nBayestest\n\nLMM easier to fit with Bayesian approach\n\nbut time consuming!"
+    "text": "where next?\n\nopen science (Spellman, Gilbert, and Corker 2018)\nliterate programming (Knuth 1984)\neasily done in R with Quarto\n\nor Python\n\nmany packages in R\n\nbrms\nbayestestR\n\nLMM easier to fit with Bayesian approach\n\nbut time consuming!"
   },
   {
     "objectID": "bayes_talk_epi.html#references",
@@ -131,5 +131,12 @@
     "title": "Bayes benefits your research",
     "section": "references",
     "text": "references\n\n\n\n\n\n\nDienes, Zoltan. 2008. Understanding Psychology as a Science: An Introduction to Scientific and Statistical Inference. Basingstoke: Palgrave Macmillan.\n\n\n———. 2016. “How Bayes Factors Change Scientific Practice.” Journal of Mathematical Psychology, Bayes factors for testing hypotheses in psychological research: Practical relevance and new developments, 72 (June): 78–89. https://doi.org/10.1016/j.jmp.2015.10.003.\n\n\nDienes, Zoltan, and Neil McLatchie. 2018. “Four Reasons to Prefer Bayesian Analyses over Significance Testing.” Psychonomic Bulletin & Review 25 (1): 207–18. https://doi.org/10.3758/s13423-017-1266-z.\n\n\nKnuth, D. E. 1984. “Literate Programming.” The Computer Journal 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nSharpe, Donald. 2013. “Why the Resistance to Statistical Innovations? Bridging the Communication Gap.” Psychological Methods 18 (4): 572–82. https://doi.org/10.1037/a0034177.\n\n\nSpellman, Barbara A., Elizabeth A. Gilbert, and Katherine S. Corker. 2018. “Open Science.” In, edited by John T. Wixted, 1–47. Hoboken, NJ, USA: John Wiley & Sons, Inc. https://doi.org/10.1002/9781119170174.epcn519.\n\n\nWagenmakers, Eric-Jan. 2020. “Bayesian Thinking for Toddlers.” https://doi.org/10.31234/osf.io/w5vbp.\n\n\nWagenmakers, Eric-Jan, Jonathon Love, Maarten Marsman, Tahira Jamil, Alexander Ly, Josine Verhagen, Ravi Selker, et al. 2018. “Bayesian Inference for Psychology. Part II: Example Applications with JASP.” Psychonomic Bulletin & Review 25 (1): 58–76. https://doi.org/10.3758/s13423-017-1323-7.\n\n\nWagenmakers, Eric-Jan, Maarten Marsman, Tahira Jamil, Alexander Ly, Josine Verhagen, Jonathon Love, Ravi Selker, et al. 2018. “Bayesian Inference for Psychology. Part I: Theoretical Advantages and Practical Ramifications.” Psychonomic Bulletin & Review 25 (1): 35–57. https://doi.org/10.3758/s13423-017-1343-3.\n\n\nWagenmakers, Eric-Jan, Richard D. Morey, and Michael D. Lee. 2016. “Bayesian Benefits for the Pragmatic Researcher.” Current Directions in Psychological Science 25 (3): 169–76. https://doi.org/10.1177/0963721416643289.\n\n\nWagenmakers, Eric-Jan, Ruud Wetzels, Denny Borsboom, and Han L. J. van der Maas. 2011. “Why Psychologists Must Change the Way They Analyze Their Data: The Case of Psi: Comment on Bem (2011).” Journal of Personality and Social Psychology 100 (3): 426–32. https://doi.org/10.1037/a0022790.\n\n\nWiens, Stefan. 2017. “Aladins Bayes Factor in r.” https://doi.org/10.17045/sthlmuni.4981154.v3.\n\n\nWiens, Stefan, and Mats E. Nilsson. 2017. “Performing Contrast Analysis in Factorial Designs: From NHST to Confidence Intervals and Beyond.” Educational and Psychological Measurement 77 (4): 690–715. https://doi.org/10.1177/0013164416668950."
+  },
+  {
+    "objectID": "bayes_talk_epi.html#next-stop-bayes",
+    "href": "bayes_talk_epi.html#next-stop-bayes",
+    "title": "Bayes benefits your research",
+    "section": "next stop Bayes",
+    "text": "next stop Bayes\n\nopen science (Spellman, Gilbert, and Corker 2018)\nliterate programming (Knuth 1984)\neasily done in R with Quarto\n\nor Python\n\nmany packages in R\n\nbrms\nbayestestR\n\nLMM easier to fit with Bayesian approach\n\nbut time consuming!"
   }
 ]
