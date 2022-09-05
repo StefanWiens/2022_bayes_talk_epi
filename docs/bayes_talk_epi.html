@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.1.120">
 
   <meta name="author" content="Stefan Wiens">
-  <meta name="dcterms.date" content="2022-09-02">
+  <meta name="dcterms.date" content="2022-09-05">
   <title>Bayes benefits your research</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -348,12 +348,12 @@
 <section id="title-slide" class="center">
   <h1 class="title">Bayes benefits your research</h1>
   <p class="author">Stefan Wiens</p>
-  <p class="date">2022-09-02</p>
+  <p class="date">2022-09-05</p>
 </section>
 
 
-<section id="background" class="slide level2">
-<h2>background</h2>
+<section id="context" class="slide level2">
+<h2>context</h2>
 
 <img data-src="images/Assar%20matematik.jpg" class="r-stretch quarto-figure-center"></section>
 <section id="maven" class="slide level2">
@@ -377,34 +377,40 @@
 <h2>common approaches</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>Frequentist</p>
+<p><strong>Frequentist</strong></p>
 <ul>
 <li class="fragment">significance test (<em>p</em> &lt; .05)</li>
 <li class="fragment">confidence interval</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p>Bayesian</p>
+<p><strong>Bayesian</strong></p>
 <ul>
 <li class="fragment">Bayes factor (<em>BF</em> &gt; 3)</li>
 <li class="fragment">credible interval</li>
 </ul>
 </div>
 </div>
-<div class="fragment">
-<p>which do you use in your research?</p>
-</div>
+<ul>
+<li class="fragment">which do you use in your research?</li>
+<li class="fragment">do you have concerns about your approach?
+<ul>
+<li class="fragment"><em>p</em> &lt; .05 <span class="citation" data-cites="cohenEarth051994 gigerenzerMindlessStatistics2004">(<a href="#/references" role="doc-biblioref" onclick="">Cohen 1994</a>; <a href="#/references" role="doc-biblioref" onclick="">Gigerenzer 2004</a>)</span></li>
+<li class="fragment">confidence intervals <span class="citation" data-cites="hoekstraRobustMisinterpretationConfidence2014 moreyFallacyPlacingConfidence2016">(<a href="#/references" role="doc-biblioref" onclick="">Hoekstra et al. 2014</a>; <a href="#/references" role="doc-biblioref" onclick="">Morey et al. 2016</a>)</span></li>
+<li class="fragment">general <span class="citation" data-cites="dienes2008">(<a href="#/references" role="doc-biblioref" onclick="">Dienes 2008</a>)</span></li>
+</ul></li>
+</ul>
 </section>
 <section id="goal" class="slide level2">
 <h2>goal</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>hypothesis testing</p>
+<p><strong>hypothesis testing</strong></p>
 <ul>
 <li class="fragment">significance test (<em>p</em> &lt; .05)</li>
 <li class="fragment">Bayes factor (<em>BF</em> &gt; 3)</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p>estimation</p>
+<p><strong>estimation</strong></p>
 <ul>
 <li class="fragment">confidence interval</li>
 <li class="fragment">credible interval</li>
@@ -444,7 +450,7 @@
 <li class="fragment">advice:
 <ul>
 <li class="fragment">Bayesian analyses can be very time consuming</li>
-<li class="fragment">If an effect may exist, go with estimation!</li>
+<li class="fragment">If effect probably exists, go with estimation!</li>
 </ul></li>
 </ul>
 </section>
@@ -454,7 +460,7 @@
 <li class="fragment">NHST (null hypothesis significance testing)
 <ul>
 <li class="fragment">H0: no effect (nill effect)</li>
-<li class="fragment">H1: there is an effect</li>
+<li class="fragment">H1: there is an effect (it is not nill)</li>
 </ul></li>
 <li class="fragment">If we assume that there is no effect, how likely are the data (or more extreme data)</li>
 <li class="fragment">Data are very unlikely (<em>p</em> &lt; .05)</li>
@@ -477,9 +483,9 @@
 <li class="fragment">NHST interpretation
 <ul>
 <li class="fragment">H0 = SIDS</li>
-<li class="fragment">Data are too unlikely: <em>p</em> &lt; 0.05</li>
-<li class="fragment">no SIDS (reject H0)</li>
-<li class="fragment">conclude murder (accept H1)</li>
+<li class="fragment">data are too unlikely: <em>p</em> &lt; 0.05</li>
+<li class="fragment">reject H0 (no SIDS)</li>
+<li class="fragment">accept H1 (conclude murder)</li>
 </ul></li>
 </ul>
 </section>
@@ -492,8 +498,8 @@
 <li class="fragment">SIDS: 1 in 6000</li>
 <li class="fragment">child murder: 0.036 in 6000</li>
 </ul></li>
-<li class="fragment">Bayesian: which explanation is better?</li>
-<li class="fragment">Frequentist: SIDS is no good (look only at H0)</li>
+<li class="fragment">Bayesian: compare explanations; which is better?</li>
+<li class="fragment">Frequentist: looks only at H0</li>
 </ul>
 </section>
 <section id="nhst-hypothesis-myopia" class="slide level2">
@@ -503,7 +509,7 @@
 </section>
 <section id="bayesian-hypothesis-testing" class="slide level2">
 <h2>Bayesian hypothesis testing</h2>
-<p>model comparison</p>
+<p>compares explanations (models)</p>
 <p>example: H0 versus H1</p>
 <p><img data-src="images/scale-clipart_300-147.png" class="absolute" style="left: 150px; width: 600px; "></p>
 </section>
@@ -551,11 +557,11 @@
 <h2>Bayes Factor</h2>
 
 <img data-src="images/Bayes_formula.png" class="r-stretch quarto-figure-center"><ul>
-<li class="fragment">BF10: How much better explanation is H1 than H0?</li>
-<li class="fragment">BF01: How much better explanation is H0 than H1?</li>
-<li class="fragment">BF10 = 1: H0 and H1 explain equally well</li>
-<li class="fragment">BF10 &lt; 1: H0 explains better</li>
-<li class="fragment">BF10 &gt; 1: H1 explains better</li>
+<li class="fragment">BF<sub>10</sub>: How much better explanation is H1 than H0?</li>
+<li class="fragment">BF<sub>01</sub>: How much better explanation is H0 than H1?</li>
+<li class="fragment">BF<sub>10</sub> = 1: H0 and H1 explain equally well</li>
+<li class="fragment">BF<sub>10</sub> &lt; 1: H0 explains better</li>
+<li class="fragment">BF<sub>10</sub> &gt; 1: H1 explains better</li>
 <li class="fragment">BF is continuous measure of evidence</li>
 </ul>
 </section>
@@ -639,6 +645,10 @@
 </ul></li>
 </ul>
 </section>
+<section id="discussion" class="slide level2">
+<h2>discussion</h2>
+<p>thank you for your time!</p>
+</section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>references</h2>
 
@@ -646,6 +656,9 @@
 
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-cohenEarth051994" class="csl-entry" role="doc-biblioentry">
+Cohen, Jacob. 1994. <span>“The Earth Is Round (p <span><span class="math inline">\(&lt;\)</span></span> .05).”</span> <em>American Psychologist</em> 49 (12): 997–1003. <a href="https://doi.org/10.1037/0003-066X.49.12.997">https://doi.org/10.1037/0003-066X.49.12.997</a>.
+</div>
 <div id="ref-dienes2008" class="csl-entry" role="doc-biblioentry">
 Dienes, Zoltan. 2008. <em>Understanding Psychology as a Science: An Introduction to Scientific and Statistical Inference</em>. Basingstoke: Palgrave Macmillan.
 </div>
@@ -655,8 +668,17 @@ Dienes, Zoltan. 2008. <em>Understanding Psychology as a Science: An Introduction
 <div id="ref-dienes2018" class="csl-entry" role="doc-biblioentry">
 Dienes, Zoltan, and Neil McLatchie. 2018. <span>“Four Reasons to Prefer Bayesian Analyses over Significance Testing.”</span> <em>Psychonomic Bulletin &amp; Review</em> 25 (1): 207–18. <a href="https://doi.org/10.3758/s13423-017-1266-z">https://doi.org/10.3758/s13423-017-1266-z</a>.
 </div>
+<div id="ref-gigerenzerMindlessStatistics2004" class="csl-entry" role="doc-biblioentry">
+Gigerenzer, Gerd. 2004. <span>“Mindless Statistics.”</span> <em>The Journal of Socio-Economics</em> 33 (5): 587–606. <a href="https://doi.org/10.1016/j.socec.2004.09.033">https://doi.org/10.1016/j.socec.2004.09.033</a>.
+</div>
+<div id="ref-hoekstraRobustMisinterpretationConfidence2014" class="csl-entry" role="doc-biblioentry">
+Hoekstra, Rink, Richard D. Morey, Jeffrey N. Rouder, and Eric-Jan Wagenmakers. 2014. <span>“Robust Misinterpretation of Confidence Intervals.”</span> <em>Psychonomic Bulletin &amp; Review</em> 21 (5): 1157–64. <a href="https://doi.org/10.3758/s13423-013-0572-3">https://doi.org/10.3758/s13423-013-0572-3</a>.
+</div>
 <div id="ref-knuth1984" class="csl-entry" role="doc-biblioentry">
 Knuth, D. E. 1984. <span>“Literate Programming.”</span> <em>The Computer Journal</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
+</div>
+<div id="ref-moreyFallacyPlacingConfidence2016" class="csl-entry" role="doc-biblioentry">
+Morey, Richard D., Rink Hoekstra, Jeffrey N. Rouder, Michael D. Lee, and Eric-Jan Wagenmakers. 2016. <span>“The Fallacy of Placing Confidence in Confidence Intervals.”</span> <em>Psychonomic Bulletin &amp; Review</em> 23 (1): 103–23. <a href="https://doi.org/10.3758/s13423-015-0947-8">https://doi.org/10.3758/s13423-015-0947-8</a>.
 </div>
 <div id="ref-sharpe2013" class="csl-entry" role="doc-biblioentry">
 Sharpe, Donald. 2013. <span>“Why the Resistance to Statistical Innovations? Bridging the Communication Gap.”</span> <em>Psychological Methods</em> 18 (4): 572–82. <a href="https://doi.org/10.1037/a0034177">https://doi.org/10.1037/a0034177</a>.

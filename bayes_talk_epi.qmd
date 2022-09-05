@@ -22,7 +22,7 @@ As researchers, we need to learn new methods that improve our research. However,
 [Stefan Wiens](https://www.su.se/profiles/swiens-1.184142)
 :::
 
-## background
+## context
 
 ![](images/Assar%20matematik.jpg){fig-align="center"}
 
@@ -43,36 +43,39 @@ As researchers, we need to learn new methods that improve our research. However,
 
 ::: columns
 ::: {.column width="50%"}
-Frequentist
+**Frequentist**
 
 -   significance test (*p* \< .05)
 -   confidence interval
 :::
 
 ::: {.column width="50%"}
-Bayesian
+**Bayesian**
 
 -   Bayes factor (*BF* \> 3)
 -   credible interval
 :::
 :::
 
-. . .
+- which do you use in your research?
+- do you have concerns about your approach?
+  - *p* < .05 [@cohenEarth051994; @gigerenzerMindlessStatistics2004]
+  - confidence intervals [@hoekstraRobustMisinterpretationConfidence2014; @moreyFallacyPlacingConfidence2016]
+  - general [@dienes2008]
 
-which do you use in your research?
 
 ## goal
 
 ::: columns
 ::: {.column width="50%"}
-hypothesis testing
+**hypothesis testing**
 
 -   significance test (*p* \< .05)
 -   Bayes factor (*BF* \> 3)
 :::
 
 ::: {.column width="50%"}
-estimation
+**estimation**
 
 -   confidence interval
 -   credible interval
@@ -103,13 +106,13 @@ tiredness symptoms after listening to my talk
     -   example: *ESP* [@wagenmakers2011]
 -   advice:
     -   Bayesian analyses can be very time consuming
-    -   If an effect may exist, go with estimation!
+    -   If effect probably exists, go with estimation!
 
 ## frequentist hypothesis testing
 
 -   NHST (null hypothesis significance testing)
     -   H0: no effect (nill effect)
-    -   H1: there is an effect
+    -   H1: there is an effect (it is not nill)
 -   If we assume that there is no effect, how likely are the data (or more extreme data)
 -   Data are very unlikely (*p* \< .05)
 -   We reject the idea that there is no effect (reject H0)
@@ -125,9 +128,9 @@ tiredness symptoms after listening to my talk
         -   "1 in 73 million" that 2 children would die of SIDS
 -   NHST interpretation
     -   H0 = SIDS
-    -   Data are too unlikely: *p* \< 0.05
-    -   no SIDS (reject H0)
-    -   conclude murder (accept H1)
+    -   data are too unlikely: *p* \< 0.05
+    -   reject H0 (no SIDS)
+    -   accept H1 (conclude murder)
 
 ## Royal statistical society
 
@@ -136,8 +139,8 @@ tiredness symptoms after listening to my talk
 -   own calculation for Sweden (some years old)
     -   SIDS: 1 in 6000
     -   child murder: 0.036 in 6000
--   Bayesian: which explanation is better?
--   Frequentist: SIDS is no good (look only at H0)
+-   Bayesian: compare explanations; which is better?
+-   Frequentist: looks only at H0
 
 ## NHST = hypothesis myopia
 
@@ -147,7 +150,7 @@ tiredness symptoms after listening to my talk
 
 ## Bayesian hypothesis testing
 
-model comparison
+compares explanations (models)
 
 example: H0 versus H1
 
@@ -171,11 +174,11 @@ example: H0 versus H1
 
 ![](images/Bayes_formula.png){fig-align="center"}
 
--   BF10: How much better explanation is H1 than H0?
--   BF01: How much better explanation is H0 than H1?
--   BF10 = 1: H0 and H1 explain equally well
--   BF10 \< 1: H0 explains better
--   BF10 \> 1: H1 explains better
+-   BF~10~: How much better explanation is H1 than H0?
+-   BF~01~: How much better explanation is H0 than H1?
+-   BF~10~ = 1: H0 and H1 explain equally well
+-   BF~10~ \< 1: H0 explains better
+-   BF~10~ \> 1: H1 explains better
 -   BF is continuous measure of evidence
 
 ## model comparison
@@ -222,9 +225,13 @@ Bayesian analyses punish vagueness [@wagenmakers2020]
 -   easily done in [R](https://www.r-project.org/) with [Quarto](https://quarto.org/)
     -   or Python
 -   many packages in R
-    - [brms](burknerBrmsPackageBayesian2017a)
+    -   [brms](burknerBrmsPackageBayesian2017a)
     -   [bayestestR](makowskiIndicesEffectExistence2019)
 -   LMM easier to fit with Bayesian approach
     -   but time consuming!
+
+## discussion
+
+thank you for your time!
 
 ## references

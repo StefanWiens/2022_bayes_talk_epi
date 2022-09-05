@@ -18,7 +18,7 @@
     "href": "bayes_talk_epi.html#common-approaches",
     "title": "Bayes benefits your research",
     "section": "common approaches",
-    "text": "common approaches\n\n\nFrequentist\n\nsignificance test (p < .05)\nconfidence interval\n\n\nBayesian\n\nBayes factor (BF > 3)\ncredible interval\n\n\n\n\nwhich do you use in your research?"
+    "text": "common approaches\n\n\nFrequentist\n\nsignificance test (p < .05)\nconfidence interval\n\n\nBayesian\n\nBayes factor (BF > 3)\ncredible interval\n\n\n\n\nwhich do you use in your research?\ndo you have concerns about your approach?\n\np < .05 (Cohen 1994; Gigerenzer 2004)\nconfidence intervals (Hoekstra et al. 2014; Morey et al. 2016)\ngeneral (Dienes 2008)"
   },
   {
     "objectID": "bayes_talk_epi.html#goal",
@@ -39,28 +39,28 @@
     "href": "bayes_talk_epi.html#hypothesis-testing",
     "title": "Bayes benefits your research",
     "section": "hypothesis testing",
-    "text": "hypothesis testing\n\nhypothesis testing: does effect exist?\nestimation: how big is effect?\ndemonstrate existence first (Wagenmakers, Marsman, et al. 2018)\n\ntooth fairy science \nexample: ESP (Wagenmakers et al. 2011)\n\nadvice:\n\nBayesian analyses can be very time consuming\nIf an effect may exist, go with estimation!"
+    "text": "hypothesis testing\n\nhypothesis testing: does effect exist?\nestimation: how big is effect?\ndemonstrate existence first (Wagenmakers, Marsman, et al. 2018)\n\ntooth fairy science \nexample: ESP (Wagenmakers et al. 2011)\n\nadvice:\n\nBayesian analyses can be very time consuming\nIf effect probably exists, go with estimation!"
   },
   {
     "objectID": "bayes_talk_epi.html#frequentist-hypothesis-testing",
     "href": "bayes_talk_epi.html#frequentist-hypothesis-testing",
     "title": "Bayes benefits your research",
     "section": "frequentist hypothesis testing",
-    "text": "frequentist hypothesis testing\n\nNHST (null hypothesis significance testing)\n\nH0: no effect (nill effect)\nH1: there is an effect\n\nIf we assume that there is no effect, how likely are the data (or more extreme data)\nData are very unlikely (p < .05)\nWe reject the idea that there is no effect (reject H0)\nWe conclude that there is an effect (accept H1)"
+    "text": "frequentist hypothesis testing\n\nNHST (null hypothesis significance testing)\n\nH0: no effect (nill effect)\nH1: there is an effect (it is not nill)\n\nIf we assume that there is no effect, how likely are the data (or more extreme data)\nData are very unlikely (p < .05)\nWe reject the idea that there is no effect (reject H0)\nWe conclude that there is an effect (accept H1)"
   },
   {
     "objectID": "bayes_talk_epi.html#sally-clark",
     "href": "bayes_talk_epi.html#sally-clark",
     "title": "Bayes benefits your research",
     "section": "Sally Clark",
-    "text": "Sally Clark\n\n\nHer two children died briefly after birth\n\ndefense: SIDS\nprosecution: murder\n\n“1 in 73 million” that 2 children would die of SIDS\n\n\nNHST interpretation\n\nH0 = SIDS\nData are too unlikely: p < 0.05\nno SIDS (reject H0)\nconclude murder (accept H1)"
+    "text": "Sally Clark\n\n\nHer two children died briefly after birth\n\ndefense: SIDS\nprosecution: murder\n\n“1 in 73 million” that 2 children would die of SIDS\n\n\nNHST interpretation\n\nH0 = SIDS\ndata are too unlikely: p < 0.05\nreject H0 (no SIDS)\naccept H1 (conclude murder)"
   },
   {
     "objectID": "bayes_talk_epi.html#royal-statistical-society",
     "href": "bayes_talk_epi.html#royal-statistical-society",
     "title": "Bayes benefits your research",
     "section": "Royal statistical society",
-    "text": "Royal statistical society\n“The jury needs to weigh up two competing explanations. Two deaths by murder may well be even more unlikely” (Green, 2002)\n\nown calculation for Sweden (some years old)\n\nSIDS: 1 in 6000\nchild murder: 0.036 in 6000\n\nBayesian: which explanation is better?\nFrequentist: SIDS is no good (look only at H0)"
+    "text": "Royal statistical society\n“The jury needs to weigh up two competing explanations. Two deaths by murder may well be even more unlikely” (Green, 2002)\n\nown calculation for Sweden (some years old)\n\nSIDS: 1 in 6000\nchild murder: 0.036 in 6000\n\nBayesian: compare explanations; which is better?\nFrequentist: looks only at H0"
   },
   {
     "objectID": "bayes_talk_epi.html#nhst-hypothesis-myopia",
@@ -74,7 +74,7 @@
     "href": "bayes_talk_epi.html#bayesian-hypothesis-testing",
     "title": "Bayes benefits your research",
     "section": "Bayesian hypothesis testing",
-    "text": "Bayesian hypothesis testing\nmodel comparison\nexample: H0 versus H1"
+    "text": "Bayesian hypothesis testing\ncompares explanations (models)\nexample: H0 versus H1"
   },
   {
     "objectID": "bayes_talk_epi.html#bayesian-whodunnit",
@@ -130,7 +130,7 @@
     "href": "bayes_talk_epi.html#references",
     "title": "Bayes benefits your research",
     "section": "references",
-    "text": "references\n\n\n\n\n\n\nDienes, Zoltan. 2008. Understanding Psychology as a Science: An Introduction to Scientific and Statistical Inference. Basingstoke: Palgrave Macmillan.\n\n\n———. 2016. “How Bayes Factors Change Scientific Practice.” Journal of Mathematical Psychology, Bayes factors for testing hypotheses in psychological research: Practical relevance and new developments, 72 (June): 78–89. https://doi.org/10.1016/j.jmp.2015.10.003.\n\n\nDienes, Zoltan, and Neil McLatchie. 2018. “Four Reasons to Prefer Bayesian Analyses over Significance Testing.” Psychonomic Bulletin & Review 25 (1): 207–18. https://doi.org/10.3758/s13423-017-1266-z.\n\n\nKnuth, D. E. 1984. “Literate Programming.” The Computer Journal 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nSharpe, Donald. 2013. “Why the Resistance to Statistical Innovations? Bridging the Communication Gap.” Psychological Methods 18 (4): 572–82. https://doi.org/10.1037/a0034177.\n\n\nSpellman, Barbara A., Elizabeth A. Gilbert, and Katherine S. Corker. 2018. “Open Science.” In, edited by John T. Wixted, 1–47. Hoboken, NJ, USA: John Wiley & Sons, Inc. https://doi.org/10.1002/9781119170174.epcn519.\n\n\nWagenmakers, Eric-Jan. 2020. “Bayesian Thinking for Toddlers.” https://doi.org/10.31234/osf.io/w5vbp.\n\n\nWagenmakers, Eric-Jan, Jonathon Love, Maarten Marsman, Tahira Jamil, Alexander Ly, Josine Verhagen, Ravi Selker, et al. 2018. “Bayesian Inference for Psychology. Part II: Example Applications with JASP.” Psychonomic Bulletin & Review 25 (1): 58–76. https://doi.org/10.3758/s13423-017-1323-7.\n\n\nWagenmakers, Eric-Jan, Maarten Marsman, Tahira Jamil, Alexander Ly, Josine Verhagen, Jonathon Love, Ravi Selker, et al. 2018. “Bayesian Inference for Psychology. Part I: Theoretical Advantages and Practical Ramifications.” Psychonomic Bulletin & Review 25 (1): 35–57. https://doi.org/10.3758/s13423-017-1343-3.\n\n\nWagenmakers, Eric-Jan, Richard D. Morey, and Michael D. Lee. 2016. “Bayesian Benefits for the Pragmatic Researcher.” Current Directions in Psychological Science 25 (3): 169–76. https://doi.org/10.1177/0963721416643289.\n\n\nWagenmakers, Eric-Jan, Ruud Wetzels, Denny Borsboom, and Han L. J. van der Maas. 2011. “Why Psychologists Must Change the Way They Analyze Their Data: The Case of Psi: Comment on Bem (2011).” Journal of Personality and Social Psychology 100 (3): 426–32. https://doi.org/10.1037/a0022790.\n\n\nWiens, Stefan. 2017. “Aladins Bayes Factor in r.” https://doi.org/10.17045/sthlmuni.4981154.v3.\n\n\nWiens, Stefan, and Mats E. Nilsson. 2017. “Performing Contrast Analysis in Factorial Designs: From NHST to Confidence Intervals and Beyond.” Educational and Psychological Measurement 77 (4): 690–715. https://doi.org/10.1177/0013164416668950."
+    "text": "references\n\n\n\n\n\n\nCohen, Jacob. 1994. “The Earth Is Round (p \\(<\\) .05).” American Psychologist 49 (12): 997–1003. https://doi.org/10.1037/0003-066X.49.12.997.\n\n\nDienes, Zoltan. 2008. Understanding Psychology as a Science: An Introduction to Scientific and Statistical Inference. Basingstoke: Palgrave Macmillan.\n\n\n———. 2016. “How Bayes Factors Change Scientific Practice.” Journal of Mathematical Psychology, Bayes factors for testing hypotheses in psychological research: Practical relevance and new developments, 72 (June): 78–89. https://doi.org/10.1016/j.jmp.2015.10.003.\n\n\nDienes, Zoltan, and Neil McLatchie. 2018. “Four Reasons to Prefer Bayesian Analyses over Significance Testing.” Psychonomic Bulletin & Review 25 (1): 207–18. https://doi.org/10.3758/s13423-017-1266-z.\n\n\nGigerenzer, Gerd. 2004. “Mindless Statistics.” The Journal of Socio-Economics 33 (5): 587–606. https://doi.org/10.1016/j.socec.2004.09.033.\n\n\nHoekstra, Rink, Richard D. Morey, Jeffrey N. Rouder, and Eric-Jan Wagenmakers. 2014. “Robust Misinterpretation of Confidence Intervals.” Psychonomic Bulletin & Review 21 (5): 1157–64. https://doi.org/10.3758/s13423-013-0572-3.\n\n\nKnuth, D. E. 1984. “Literate Programming.” The Computer Journal 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nMorey, Richard D., Rink Hoekstra, Jeffrey N. Rouder, Michael D. Lee, and Eric-Jan Wagenmakers. 2016. “The Fallacy of Placing Confidence in Confidence Intervals.” Psychonomic Bulletin & Review 23 (1): 103–23. https://doi.org/10.3758/s13423-015-0947-8.\n\n\nSharpe, Donald. 2013. “Why the Resistance to Statistical Innovations? Bridging the Communication Gap.” Psychological Methods 18 (4): 572–82. https://doi.org/10.1037/a0034177.\n\n\nSpellman, Barbara A., Elizabeth A. Gilbert, and Katherine S. Corker. 2018. “Open Science.” In, edited by John T. Wixted, 1–47. Hoboken, NJ, USA: John Wiley & Sons, Inc. https://doi.org/10.1002/9781119170174.epcn519.\n\n\nWagenmakers, Eric-Jan. 2020. “Bayesian Thinking for Toddlers.” https://doi.org/10.31234/osf.io/w5vbp.\n\n\nWagenmakers, Eric-Jan, Jonathon Love, Maarten Marsman, Tahira Jamil, Alexander Ly, Josine Verhagen, Ravi Selker, et al. 2018. “Bayesian Inference for Psychology. Part II: Example Applications with JASP.” Psychonomic Bulletin & Review 25 (1): 58–76. https://doi.org/10.3758/s13423-017-1323-7.\n\n\nWagenmakers, Eric-Jan, Maarten Marsman, Tahira Jamil, Alexander Ly, Josine Verhagen, Jonathon Love, Ravi Selker, et al. 2018. “Bayesian Inference for Psychology. Part I: Theoretical Advantages and Practical Ramifications.” Psychonomic Bulletin & Review 25 (1): 35–57. https://doi.org/10.3758/s13423-017-1343-3.\n\n\nWagenmakers, Eric-Jan, Richard D. Morey, and Michael D. Lee. 2016. “Bayesian Benefits for the Pragmatic Researcher.” Current Directions in Psychological Science 25 (3): 169–76. https://doi.org/10.1177/0963721416643289.\n\n\nWagenmakers, Eric-Jan, Ruud Wetzels, Denny Borsboom, and Han L. J. van der Maas. 2011. “Why Psychologists Must Change the Way They Analyze Their Data: The Case of Psi: Comment on Bem (2011).” Journal of Personality and Social Psychology 100 (3): 426–32. https://doi.org/10.1037/a0022790.\n\n\nWiens, Stefan. 2017. “Aladins Bayes Factor in r.” https://doi.org/10.17045/sthlmuni.4981154.v3.\n\n\nWiens, Stefan, and Mats E. Nilsson. 2017. “Performing Contrast Analysis in Factorial Designs: From NHST to Confidence Intervals and Beyond.” Educational and Psychological Measurement 77 (4): 690–715. https://doi.org/10.1177/0013164416668950."
   },
   {
     "objectID": "bayes_talk_epi.html#next-stop-bayes",
@@ -138,5 +138,19 @@
     "title": "Bayes benefits your research",
     "section": "next stop Bayes",
     "text": "next stop Bayes\n\nopen science (Spellman, Gilbert, and Corker 2018)\nliterate programming (Knuth 1984)\neasily done in R with Quarto\n\nor Python\n\nmany packages in R\n\nbrms\nbayestestR\n\nLMM easier to fit with Bayesian approach\n\nbut time consuming!"
+  },
+  {
+    "objectID": "bayes_talk_epi.html#context",
+    "href": "bayes_talk_epi.html#context",
+    "title": "Bayes benefits your research",
+    "section": "context",
+    "text": "context"
+  },
+  {
+    "objectID": "bayes_talk_epi.html#discussion",
+    "href": "bayes_talk_epi.html#discussion",
+    "title": "Bayes benefits your research",
+    "section": "discussion",
+    "text": "discussion\nthank you for your time!"
   }
 ]
